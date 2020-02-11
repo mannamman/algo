@@ -2,7 +2,7 @@
 T = int(input())
 for i in range(1,T+1):
     nums = input().split()
-    nums = list(map(int,nums))
+    nums = list(map(int,nums))##좋은거같은데
     Min,Max = 99999,-99999
     result = 0
     for j in nums:
