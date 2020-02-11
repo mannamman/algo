@@ -1,7 +1,8 @@
 ##해쉬이용 배열에서 타겟넘버가 되는 두 수의 인덱스를 구하라
 target = int(input("target : "))
 nums = input().split()
-nums = [int(i) for i in nums]
+#nums = [int(i) for i in nums]
+nums = list(map(int,nums)
 dic={}
 for i in range(target):
     dic[i]=-1
